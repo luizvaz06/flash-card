@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flash Cards - Carros</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <h1>🚗 Flash Cards</h1>
+
+    <p class="subtitulo">
+        Aprenda sobre carros de forma divertida
+    </p>
+
+    <div class="progresso">
+        <div class="barra" id="barra"></div>
+    </div>
+
+    <div class="flashcard" id="flashcard">
+
+        <div class="card">
+
+            <div class="front">
+
+                <span>Pergunta</span>
+
+                <h2 id="pergunta"></h2>
+
+                <small>Clique para virar</small>
+
+            </div>
+
+            <div class="back">
+
+                <span>Resposta</span>
+
+                <h2 id="resposta"></h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="botoes">
+
+        <button onclick="anterior()">
+            ⬅ Anterior
+        </button>
+
+        <button onclick="proximo()">
+            Próximo ➜
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
